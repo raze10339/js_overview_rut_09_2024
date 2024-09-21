@@ -13,3 +13,4 @@ console.log('you are young');
 
 const result = (0 || 75) && true && 'some sting' && true &&100;
 console.log(result);
+
