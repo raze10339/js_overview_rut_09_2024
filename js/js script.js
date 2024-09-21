@@ -1,20 +1,29 @@
-//arrays are not primitive value types
-//They are references types
-const fruits = ['apple', 'orange', 'kiwi', 'grape', 'banana', 'blueberry', 'strawberry', 'plantain'];
-const names = ['roman', 'michael', 'nina', 'adonis'];
+const name = ['izzy', 'matt', 'city', 'kandyce'];
 
-const data = ['JD', 'Tadlock', 44, '555 coding dr', '777-777-7777', ['pickleball', 'fishing']];
+function printNames() {
+const someVal = 'this is val';
+    // loop over the names array and print out each name to the console
 
-for(let index = 0; index< fruits.length; index++) {
-    console.log(fruits[index]);
+    for (let index = 0; index < names.length; index++) {
+        console.log(names[index]);
     }
+}
+printNames();
 
-for(let count = 0; count< fruits.length; count++) {
-    console.log(fruits[count]);
-    }
+if (true) {
+    const nestedvar = 'some nested var';
+    console.log(nestedvar);
+}
 
 
 
+function doSomething() {
+    console.log('do something');
+    console.log('another something');
+    console.log('one more thing');
+}
+
+doSomething();
 
 
 
