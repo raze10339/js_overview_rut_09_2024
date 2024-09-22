@@ -8,22 +8,37 @@ const someVal = 'this is val';
         console.log(names[index]);
     }
 }
-printNames();
+//function reverseString(str) {
+    //return str.split('').reverse().join('');
+//}
+//const reversed = reverseString('hello, world');
+//console.log(reversed);
 
-if (true) {
-    const nestedvar = 'some nested var';
-    console.log(nestedvar);
+
+function add(num1, num2) {
+    return num1 +num2;
 }
 
+const result =add(3, 10);
+
+console.log(result);
+
+//add(10, 5);
+//add(20, 100);
+//add(50, 5);
+
+//function printVal(str, bool, num, arr) {
+    //console.log(arr[1]);
+//}
+
+// printVals('some string', true, 15, ['Micheal', 'nina', 'roman']);
 
 
-function doSomething() {
-    console.log('do something');
-    console.log('another something');
-    console.log('one more thing');
-}
 
-doSomething();
+
+
+
+
 
 
 
