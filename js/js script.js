@@ -1,48 +1,30 @@
-const name = ['izzy', 'matt', 'city', 'kandyce'];
+const notes = ['JS is cool', 'create a constant with const', 'use the src attribute on the script tag to load a js file'];
+console.log(notes);
+// Adds an item to the end of the array
+notes.push('copilot is a great help');
 
-function printNames() {
-const someVal = 'this is val';
-    // loop over the names array and print out each name to the console
+console.log(notes);
+// pop removes the last item from the array
+notes.unshift('css is crazy');
 
-    for (let index = 0; index < names.length; index++) {
-        console.log(names[index]);
-    }
-}
-//function reverseString(str) {
-    //return str.split('').reverse().join('');
-//}
-//const reversed = reverseString('hello, world');
-//console.log(reversed);
+console.log(notes);
 
+notes.pop();
 
-function add(num1, num2) {
-    return num1 +num2;
-}
+console.log(notes);
+// shift removes the first item from the array
+notes.shift();
 
-const result =add(3, 10);
+console.log(notes);
 
-console.log(result);
+const notes2 = notes;
 
-//add(10, 5);
-//add(20, 100);
-//add(50, 5);
-
-//function printVal(str, bool, num, arr) {
-    //console.log(arr[1]);
-//}
-
-// printVals('some string', true, 15, ['Micheal', 'nina', 'roman']);
+// To remove item at a certain index, we use splice
+// You pass in the index of where you want to start deleting items and then the amount of items you want to remove
+notes.splice(1, 2);
 
 
-
-
-
-
-
-
-
-
-
+console.log(notes2);
 
 
 
